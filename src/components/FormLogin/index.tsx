@@ -21,7 +21,7 @@ export function FormLogin() {
                                 name="user"
                                 placeholder=" "
                             />
-                            <label htmlFor="user" className={styles.formLabel}>Usuário</label>
+                            <label htmlFor="user" className={styles.formLabel}>Usuário (Autenticação não implementada)</label>
                         </div>
 
                         <div className={styles.formDiv}>
