@@ -1,3 +1,18 @@
+## URL Pública do projeto
+
+- [Deploy realizado na Vercel] https://dragons-lair-woop.vercel.app/
+
+
+## Ferramentas utilziadas no desenvolvimento do projeto
+- [Next.js]
+- [Typescript]
+- [SASS]
+- [Axios]
+- [React-icons] 
+- [SweetAlert2] 
+
+##
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
