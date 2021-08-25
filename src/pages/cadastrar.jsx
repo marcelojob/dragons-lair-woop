@@ -9,7 +9,7 @@ export default function Register() {
         <title>Cadastrar novo Dragão | Covil de Dragões</title>
       </Head>
 
-      <main style={{backgroundImage:`url(/images/bg-sign.jpg)`}} className={styles.backgroundImage}>
+      <main style={{backgroundImage:`url(/images/bg-sign.jpg)`}} className={styles.background}>
           <FormRegister />
       </main>
       

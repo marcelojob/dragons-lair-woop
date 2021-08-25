@@ -1,13 +1,8 @@
+@import "../../styles/mixins";
+
 .card {
     max-width: 550px;
-    width: 90%;
-    margin: 10vh 10vw;
-    background-image: url(/images/content-top.jpg);
-    background-size: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-color: var(--gray-900);
-    border:  10px double rgb(51, 51, 51);
+    @include containerCard;
     
 
     .title {
@@ -92,6 +87,7 @@
                 cursor: pointer;
                 font-size: .8rem;
                 transition: .3s;
+                margin: 1rem 0;
 
                 &:hover {
                     filter: brightness(.9);

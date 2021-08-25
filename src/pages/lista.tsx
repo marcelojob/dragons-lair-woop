@@ -10,7 +10,7 @@ export default function List() {
             <Head>
                 <title>Lista de Dragões | Covil de Dragões</title>
             </Head>
-                <main style={{backgroundImage:`url(/images/bg.jpg)`}} className={styles.backgroundImage}>
+                <main style={{backgroundImage:`url(/images/bg.jpg)`}} className={styles.background}>
                     <h1 className={styles.title}> Covil de Dragões </h1>
                     <div className={styles.containerBtn}>
                         <Link href="/cadastrar" prefetch >

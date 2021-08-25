@@ -9,7 +9,7 @@ export default function Home() {
         <title>Login | Covil de Dragões</title>
       </Head>
 
-      <main style={{backgroundImage:`url(/images/bg-login.jpg)`}} className={styles.backgroundImage}>
+      <main style={{backgroundImage:`url(/images/bg-login.jpg)`}} className={styles.background}>
         <FormLogin />
       </main>
       
