@@ -67,7 +67,6 @@ export function FormUpdate(props : dragonProps) {
                             type="hidden" 
                             name="id"
                             value={props.id} 
-                            onChange={event => setId(event.target.value)}
                         />
 
                         <div className={styles.formDiv}>
