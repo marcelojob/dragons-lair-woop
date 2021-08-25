@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --red-100: #c40202;
+    --brown-300: #87532D;
+    --brown-600: #613B1F;
+    --gray-500: #53514d;
+    --gray-900: #12110F;
+
+    --normal-font-size: 1rem;
+    --small-font-size: .75rem;
+}
+
+@media(max-width: 1080px) {
+    html {
+        font-size:93.75%;
+    }
+}
+
+@media(max-width: 720px) {
+    html {
+        font-size:87.5%;
+    }
+}
+
+body {
+    background: var(--gray-900);
+    color: var(--brown-300);
+}
+
+body, input, textarea, select, button {
+    font: 400 1rem 'Cormorant SC', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.backgroundImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
